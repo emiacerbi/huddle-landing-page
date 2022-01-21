@@ -1,0 +1,43 @@
+html {
+    font-size: 16px;
+}
+
+.main {
+
+    &__title {
+        font-family: var(--ff-poppins);
+        font-size: 1.7rem;
+        font-weight: 600;
+        opacity: .9;
+    }
+
+    &__content {
+        opacity: .9;
+        font-size: 1.17rem;;
+        font-family: var(--ff-open);
+        font-weight: 400;
+    }
+
+    &__button {
+        font-family: var(--ff-open);
+        font-size: .9rem;
+        color: var(--violet);
+        font-weight: 600;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width:1000px) {
+    .main {
+
+        &__title {
+            font-size: 2.6rem;
+        }
+
+        &__content {
+            font-size: 1.2rem;
+        }
+    }
+
+}
