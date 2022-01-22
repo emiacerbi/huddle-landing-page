@@ -166,9 +166,7 @@ body {
   gap: 1.5rem;
 }
 .footer__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -180,6 +178,12 @@ body {
 .footer__icon:hover {
   color: var(--soft-magenta);
   border: 1px solid var(--soft-magenta);
+}
+.footer__icon::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 1000px) {
