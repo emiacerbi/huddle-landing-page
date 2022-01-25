@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     color: white;
-    padding: 2.5rem;
+    padding: 2.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -23,11 +22,13 @@ body {
 }
 
 .main {
-
+    max-width: 1300px;
     text-align: center;
 
     &__image {
+        margin: 0 auto;
         margin-top: 5rem;
+        
     }
 
     &__title {
@@ -50,7 +51,6 @@ body {
     &__button:hover {
         background-color: var(--soft-magenta);
     }
-
 }
 
 .footer {
@@ -108,7 +108,7 @@ body {
 
     .main {
         display: flex;
-        gap: 2rem;
+        gap: 4rem;
 
         .left-box {
             width: 57%;

@@ -118,7 +118,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   color: white;
-  padding: 2.5rem;
+  padding: 2.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +126,6 @@ body {
 }
 
 .container {
-  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -135,9 +134,11 @@ body {
 }
 
 .main {
+  max-width: 1300px;
   text-align: center;
 }
 .main__image {
+  margin: 0 auto;
   margin-top: 5rem;
 }
 .main__title {
@@ -207,7 +208,7 @@ body {
 
   .main {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
   }
   .main .left-box {
     width: 57%;
