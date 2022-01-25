@@ -13,11 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Link](https://your-live-site-url.com)
+- Live Site URL: [Link](https://emiacerbi.github.io/huddle-landing-page/)
 
 ## My process
 
